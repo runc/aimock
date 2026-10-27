@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+# uploads 为运行时上传的临时文件（UUID 目录），不入库；sample/exports/standards 随库提交
+data/uploads/
+uv.lock.tmp

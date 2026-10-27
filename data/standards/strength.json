@@ -1,0 +1,72 @@
+{
+  "task_type": "结构强度",
+  "task_type_code": "strength",
+  "name": "车架强度分析工况系数与材料屈服强度（企业标准）",
+  "source": "示例数据（模拟自 Q/DFM CV 001 条款提取，待替换为真实企标提取结果）",
+  "version": 1,
+  "condition_factors": [
+    {
+      "condition": "弯曲",
+      "factor": 1.3,
+      "clause": "表2"
+    },
+    {
+      "condition": "扭转",
+      "factor": 1.3,
+      "clause": "表2"
+    },
+    {
+      "condition": "转弯",
+      "factor": 1.1,
+      "clause": "表3"
+    },
+    {
+      "condition": "扭转+转弯",
+      "factor": 1.1,
+      "clause": "表3"
+    },
+    {
+      "condition": "制动",
+      "factor": 1.1,
+      "clause": "表4"
+    },
+    {
+      "condition": "双扭",
+      "factor": 1.0,
+      "clause": "表4"
+    }
+  ],
+  "material_yields": [
+    {
+      "material": "DL590",
+      "name": "590L",
+      "yield_mpa": 430.0
+    },
+    {
+      "material": "DL591",
+      "name": "610L",
+      "yield_mpa": 355.0
+    },
+    {
+      "material": "DL592",
+      "name": "610L",
+      "yield_mpa": 355.0
+    },
+    {
+      "material": "DL593",
+      "name": "520L",
+      "yield_mpa": 330.0
+    },
+    {
+      "material": "DL594",
+      "name": "420L",
+      "yield_mpa": 255.0
+    },
+    {
+      "material": "DL595",
+      "name": "610L",
+      "yield_mpa": 355.0
+    }
+  ],
+  "updated_at": "2026-10-27T07:17:13Z"
+}
